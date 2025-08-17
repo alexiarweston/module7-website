@@ -133,7 +133,6 @@ h3 {
 
 @media screen and (max-width: 600px) {
     #navigation ul {
-        display: flex;
         justify-content: space-between;
         list-style-type: none;
     }
