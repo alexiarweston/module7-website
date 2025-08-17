@@ -132,6 +132,10 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        align-items: center;
+    }
+
     #navigation ul {
         display: flex;
         flex-direction: column;
@@ -149,6 +153,10 @@ h3 {
 }
 
 @media (orientation: portrait) {
+    body {
+        align-items: center;
+    }
+
     #navigation ul {
         display: flex;
         flex-direction: column;
