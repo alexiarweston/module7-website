@@ -1,0 +1,131 @@
+/* TYPE SELECTOR */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(15, 67, 52);
+    text-align: center;
+    background-color: rgba(250, 235, 195, 0.527);
+}
+
+h1 {
+    text-shadow: #a3a2a2 2px 2px 4px;
+}
+
+h3 {
+    font-variant: small-caps;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+q {
+    color: #107566;
+    font-style: italic;
+}
+
+img {
+    max-height: 50%;
+    border-radius: 8px;
+    border-color: #0e644f;
+}
+
+a {
+    color: #0e644f;
+    text-decoration: none;
+}
+
+/* ID SELECTOR */
+#navigation {
+    background-image: url('images/catheader.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    border-radius: 8px;
+    border: 2px solid #0e644f;
+    padding: 50px;
+    line-height: 2;
+    text-align: center;
+}
+
+#navigation ul {
+    list-style-type: none;
+    padding: 1em 0;
+    border-top: 2px solid #0e644f;
+    border-bottom: 2px solid #0e644f;
+}
+
+#navigation ul li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+#navigation ul a {
+    display: inline-block;
+}
+
+#navigation ul a:hover {
+    color: #07352a;
+    transition: all 1s;
+}
+
+#navigation ul ul li {
+    display: block;
+    font-size: 75%;
+}
+
+#navigation li ul {
+    display: none;
+    background-color: #f0f8ff;
+    border: 2px solid #0e644f;
+    border-radius: 8px;
+}
+
+#navigation li:hover ul {
+    display: block;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    border: 2px solid #0e644f;
+}
+
+/* CLASS SELECTOR */
+.header {
+    background-color: #12512578;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #7f7e7e;
+}
+
+.first-text {
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* RELATIONAL SELECTOR */
+main>p {
+    text-align: center;
+    border: thickoutset #0e644f;
+    padding: 10px;
+}
+
+/* COMBINATION SELECTOR */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: #0d3d32;
+}
