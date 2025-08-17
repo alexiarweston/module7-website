@@ -148,7 +148,6 @@ h3 {
 
 @media (orientation: portrait) {
     #navigation ul {
-        display: flex;
         justify-content: space-between;
         list-style-type: none;
     }
